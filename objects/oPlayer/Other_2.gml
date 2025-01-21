@@ -1,5 +1,5 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-throwStartTime = get_timer();
-charging = true;
+var _windowSize = 256*2;
+//window_set_size(_windowSize,_windowSize);

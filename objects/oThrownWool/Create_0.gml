@@ -1,8 +1,6 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-stopTimer = .75;
-
 canBePickedUp = false;
 pickUpTimer = 1;
 

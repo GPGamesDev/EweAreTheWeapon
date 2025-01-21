@@ -1,9 +1,11 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-pullTowardsCenter = 2;
-pushFromOthers = 5;
+pullTowardsCenter = 4;
+pushFromOthers = 2;
 
-nullDist = 16;
+nullDist = 32;
+nullXDist = 16;
+nullYDist = 24;
 
 held = false;

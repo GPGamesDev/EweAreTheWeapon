@@ -3,8 +3,13 @@
 
 moveSpeed = 5;
 ammoCount = 8;
+baseArmPos = [32,-32];
 armPos = [32,-32];
-throwSpeed = 10;
+
+charging = false;
+throwSpeed = 15;
+fullThrowTime = 1*1000000;
+throwStartTime = 0;
 
 invincible = false;
 invincibleTimer = 1;

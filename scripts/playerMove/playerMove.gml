@@ -5,8 +5,8 @@ function playerMove(_xDelta,_yDelta){
 	y += _yDelta;
 
 	if(heldAmmo != noone){
-		heldAmmo.x += _xDelta;
-		heldAmmo.y += _yDelta;
+		heldAmmo.x = x+armPos[0];
+		heldAmmo.y = y+armPos[1];
 	}
 
 	for(i = 0; i<array_length(woolAmmo); i++){

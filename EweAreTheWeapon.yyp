@@ -34,6 +34,8 @@
   },
   "name":"EweAreTheWeapon",
   "resources":[
+    {"id":{"name":"oCamera","path":"objects/oCamera/oCamera.yy",},},
+    {"id":{"name":"oCircleEnemy","path":"objects/oCircleEnemy/oCircleEnemy.yy",},},
     {"id":{"name":"oEnemy","path":"objects/oEnemy/oEnemy.yy",},},
     {"id":{"name":"oFire","path":"objects/oFire/oFire.yy",},},
     {"id":{"name":"oHealthTracker","path":"objects/oHealthTracker/oHealthTracker.yy",},},
