@@ -10,4 +10,7 @@ var _yDelta = y+cameraHeight/2-_targetY;
 x -= clamp(_xDelta,-cameraSpeed,cameraSpeed);
 y -= clamp(_yDelta,-cameraSpeed,cameraSpeed);
 
+x = clamp(x,0,camXMax);
+y = clamp(y,0,camYMax);
+
 camera_set_view_pos(camera,x,y);

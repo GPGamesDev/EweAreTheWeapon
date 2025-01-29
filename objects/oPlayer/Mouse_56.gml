@@ -3,9 +3,11 @@
 
 if(heldAmmo == noone || !charging) exit
 
-var _throwDir = point_direction(x,y,mouse_x,mouse_y)+random(4)-2;
+armPos[0] = sign(x-mouse_x)*baseArmPos[0];
 
-armPos[0] = baseArmPos[0];
+var _throwDir = point_direction(x+armPos[0],y+armPos[1],mouse_x,mouse_y)+random(4)-2;
+
+
 
 instance_create_layer(x+armPos[0],y+armPos[1],"WoolAmmo",oThrownWool,{
 	direction : _throwDir,

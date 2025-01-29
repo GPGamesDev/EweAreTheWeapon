@@ -6,6 +6,9 @@ camera = view_camera[0];
 cameraWidth = camera_get_view_width(camera);
 cameraHeight = camera_get_view_height(camera);
 
+camXMax = room_width-cameraWidth;
+camYMax = room_height-cameraHeight;
+
 target = oPlayer;
 x = oPlayer.x - cameraWidth/2;
 y = oPlayer.y - cameraHeight/2;

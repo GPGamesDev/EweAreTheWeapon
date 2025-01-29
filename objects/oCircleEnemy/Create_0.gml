@@ -4,14 +4,6 @@
 // Inherit the parent event
 event_inherited();
 
-enum ENEMY_STATE{
-	STALK,
-	CIRCLE,
-	WINDUP,
-	JUMP,
-	RECOVERY
-}
-
 currentState = ENEMY_STATE.STALK;
 
 stalkDist = 100;

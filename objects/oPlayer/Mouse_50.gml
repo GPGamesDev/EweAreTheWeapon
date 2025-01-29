@@ -3,4 +3,4 @@
 
 if(heldAmmo == noone || !charging) exit
 
-armPos[0] = baseArmPos[0] + clamp(((get_timer() - throwStartTime)/fullThrowTime)*10,0,10);
+armPos[0] = sign(x-mouse_x)*(baseArmPos[0] + clamp(((get_timer() - throwStartTime)/fullThrowTime)*10,0,10));

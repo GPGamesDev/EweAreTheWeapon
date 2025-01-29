@@ -1,7 +1,8 @@
 /// @description Insert description here
 // You can write your code in this editor
 
-if(held) exit
+if(held) exit;
+if(point_distance(x,y,other.x,other.y)>restRadius) exit;
 
 var _playerX = oPlayer.x;
 var _playerY = oPlayer.y;

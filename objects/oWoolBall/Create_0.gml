@@ -9,3 +9,5 @@ nullXDist = 16;
 nullYDist = 24;
 
 held = false;
+inPlace = false;
+restRadius = 5;
