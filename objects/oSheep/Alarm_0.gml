@@ -1,6 +1,8 @@
 /// @description Wander Timer
 // You can write your code in this editor
 
+if(currentState == SHEEP_STATE.DRAGGED) exit;
+
 var _targetR = wanderRadius*sqrt(random(1));
 var _targetTheta = random(1)*2*pi;
 

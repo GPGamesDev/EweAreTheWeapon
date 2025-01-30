@@ -34,15 +34,4 @@ currentHP = maxHP;
 
 instance_create_layer(0,0,"Hidden",oHealthTracker);
 
-
-myVoice			= snd_voice1;
-myPortrait		= sBARealSheep;
-myFont			= fnt_dialogue;
-myName			= "None";
-
 instance_create_layer(0,0,"Hidden",oController);
-
-startTaunts = ["Fleece 'em!","Pull the wool over their eyes!","Go lamb on 'em!"];
-
-currentText = create_dialogue(startTaunts[irandom(array_length(startTaunts)-1)],oPlayer);
-//alarm_set(2,10);

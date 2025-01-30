@@ -19,6 +19,11 @@ switch currentState{
 		x = dragWolf.x+dragWolf.mouthPos[0];
 		y = dragWolf.y+dragWolf.mouthPos[1];
 		alarm_set(0,0);
+		
+		if(!instance_exists(dragWolf)){
+			currentState = SHEEP_STATE.STANDING;
+			alarm_set(0,newPosTimer*game_get_speed(gamespeed_fps));
+		}
 	break;
 }
 
